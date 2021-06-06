@@ -1,0 +1,261 @@
+html,body{
+    background-color: yellow;
+
+}
+.headercontainer{
+    max-width:100%;
+    max-height:100%;
+    background-color:#D2691E;
+    overflow:hidden;
+    }
+header h1{
+    font-family:arial,san-serif;
+    text-align:center;
+    font-size:13vw;
+    padding-top:20px;
+    text-transform:uppercase;
+    line-height:14px;
+
+}
+span#sil{
+    color:white;
+
+}
+span#tech{
+    color:#c73333;
+}
+header nav{
+    max-width:100%;
+    max-height:90%;
+}
+header ul{
+    list-style-type:none;
+    
+}
+header li{
+    text-align:left;
+    color:rgb(51, 50, 50);
+    display:inline-block;
+    
+}
+
+header li a{
+    text-decoration:none;
+    color:rgb(39, 38, 38);
+    font-size:19px;
+    padding:0 0 0 35px;
+}
+.cform input{
+    margin:2px 0px 10px 20px;
+    width:250px;
+    height:20px;
+    padding:0;
+}
+
+textarea{
+    margin:2px 0px 10px 20px;
+    width:250px;
+    height:60px;
+    padding:0
+}
+.cbutton button{
+    background-color:rgb(43, 15, 15);
+    border:2px solid rgb(14, 5, 5);
+    color:#FFFFFF;
+    margin:0px 0px 0px 20px;
+    width:250px;
+    height:30px;
+}
+/*contact us part ends here*/
+/*form for register*/
+.main-form{
+    width:420px;
+    background:skyblue;
+    padding:40px 20px;
+    box-sizing:border-box;
+    position:fixed;
+    left:5%;
+    top:10%;
+   transform:translate (-50%,-50%);
+}
+
+    .cancelbtn {
+        padding: 14px 20px;
+        background-color: #f44336;
+    }
+.register{
+    color: rgb(16, 17, 16);
+}
+    .cancelbtn, .register {
+        float: left;
+        width: 50%;
+    }
+
+    
+    body .e{
+        display: none; 
+        position: fixed; 
+        z-index: 1; 
+        left: 0;
+        top: 0;
+        width: 100%; 
+        height: 100%; 
+        overflow: auto; 
+        background-color: rgb(59, 56, 56);
+        padding-top: 50px;
+
+    }
+
+
+    .e {
+        display: none; 
+        position: fixed; 
+        z-index: 1; 
+        left: 0;
+        top: 0;
+        width: 100%; 
+        height: 100%;
+       overflow: auto;
+        background-color: rgb(241, 225, 225);
+        padding-top: 50px;
+    }
+
+    .content {
+        background-color: #a89e9e;
+        margin: 5% auto 15% auto;
+        border: 1px solid black;
+        width: 80%;
+        }
+
+    hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+    }
+    
+    .close {
+        position: absolute;
+        right: 35px;
+        top: 15px;
+        font-size: 40px;
+        font-weight: bold;
+        color: #f1f1f1;
+    }
+
+    .close:hover, .close:focus {
+        color: #f44336;
+        cursor: pointer;
+    }
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    
+
+h1{
+    text-align:center;
+    color:#800080;
+    font-weight:normal;
+    margin-bottom:20px;
+}
+input{
+    width:100%;
+    background:null;
+    border:1px solid #fff;
+    border-radius:3px;
+    padding:6px 15px;
+    box-sizing:border-box ;
+    margin-bottom:5px;
+    font-size:16px;
+    color:#070707;
+    
+}
+input[type="button"]{
+    background:#bac675;
+    border:0;
+    cursor:pointer ;
+    color:#A0522D;
+    
+}
+input[type="button"]:hover{
+    background:#a4b15c;
+    transition:6s;
+    }
+
+::placeholder{
+    color:#87CEEB;
+}
+#form{
+    float:right;
+}
+.top{
+    position: absolute;
+    top: 6px;
+    left: 25px;
+    right:40px;
+    text-decoration: none;
+    display: inline-block;
+    border: 1.5px ;
+    
+}
+
+.right{
+    position: absolute;
+    top:54px;
+    bottom:10 px;
+    right: 40px;
+    left: 25px;
+    display:inline-block;
+    border: 1.5px solid black;
+    background: rgb(149, 195, 214);
+    
+}
+
+    
+    .navbar{
+        display: inline-block;
+        
+    }
+    .navbar li{
+        display: inline-block;
+        
+    }
+    .navbar li a{
+        color: red;
+        padding: 18px 24px;
+        text-decoration: none;
+    }
+    
+
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color:rgb(148, 233, 148);
+    }
+     .navbar .input[type=text]{
+         padding:0px;
+         margin-top: 10px;
+         font-size:14px;
+         border:none;
+         width: 100px;
+         color: black;
+     }
+     .navbar .Containbox button{
+        
+         padding:5px 30px;
+         margin-top: 4px;
+         margin-right: 1px;
+         color: black;
+         font-size:16px;
+         border: none;
+         cursor: pointer;
+     }
+     .navbar .Containbox button:hover{
+         background-color: white;
+     }
+     .cancelbtn, .register {
+        position: left;
+        padding: 14px 20px;
+        width: 50%;
+    }
